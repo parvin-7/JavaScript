@@ -15,14 +15,14 @@ Gettings Started with my new journey with Javascript: Beginner to Pro.
 
 ## Feedback
 
-If you have any feedback, please reach out to us at 
+If you have any feedback, please reach out to us at parvindarsingh43958@gmail.com
 
 
 # Hi, I'm Parvindar! 👋
 
 
 ## 🚀 About Me
-I'm a full stack developer...
+I'm a front end developer...
 
 
 ## 🔗 Links
