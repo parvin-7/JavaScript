@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js var, dt, & objeects</title>
+    <script>
+        let a = 3;
+        var b = 5;
+        const y = 9;
+       // y = 10 ;  
+        //Not Allowed
+        {
+            let a = 8;
+            console.log(a);
+            var b = 7;
+            console.log(b);
+        }
+        console.log(a); 
+        console.log(b);
+
+        //Primitive data types
+        let c = null;
+        let d = 45;
+        let e = "Hello";
+        let f = 4.5
+        let g = undefined
+        let h = true;
+
+        console.log(c,d,e,f,g,h)
+        console.log(typeof c,typeof d,typeof e, typeof f, typeof g , typeof h)
+
+        //object is the combination of key:value pair in js
+        let object = {
+            Name:"John",
+            "Job Role": "Software Engineer"
+        }
+        console.log(object)
+        object.Address = "1/2 New-work streets"
+        console.log(object)
+
+        //Excercise 1
+        //Que1
+        let name = "Parvin"
+        let name2= name + 2
+
+        //Que 2
+        console.log(typeof name2)
+        //Que 3
+        const no = 4;
+       // no = 3 
+       //not allowed
+        
+       //Que 4
+        console.log(no + 3)
+
+        //Que 5
+        const dict = {
+            how:"kaise",
+            why:"kyon",
+            when:"kab",
+            where:"kaha",
+            whose:"kiska"
+        }
+
+        console.log(dict)
+        dict.what = "kya"
+       // const what = "what"
+       // dict[what] = "kya" 
+      // const newObj = {...dict,are:"kya"}
+      //  console.log(newObj)
+        console.log(dict)
+        //delete dict.what 
+
+    </script>
+</head>
+<body>
+    <div class="box">Hello this is the box</div>
+</body>
+</html>
