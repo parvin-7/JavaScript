@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            width: 55px;
+            height: 30px;
+            margin:20px;
+            display: flex;
+            justify-content: center;
+            border: 1px solid #ccc;
+        }
+        nav ul{
+            display: flex;
+            list-style: none;
+            justify-content: center;
+        }
+        nav li{
+            padding: 50px;
+            font-size: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="lists">
+                <li id="firstElement" >Home</li>
+                <li>Search</li>
+                <li>Cart</li>
+                <li>My Account</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div id="fourth" class="box">4</div>
+        <div class="box">5</div>
+    </div>
+
+    <table>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+        </tr>
+        <tr>
+            <td>Row 1, Cell 1</td>
+            <td>Row 1, Cell 2</td>
+            <td>Row 1, Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 2, Cell 1</td>
+            <td>Row 2, Cell 2</td>
+            <td>Row 2, Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 3, Cell 1</td>
+            <td>Row 3, Cell 2</td>
+            <td>Row 3, Cell 3</td>
+        </tr>
+    </table>
+
+    <div class="question3">
+        <p>first para</p>
+        <p>second para</p>
+        <p>third para</p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
