@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic website builder</title>
+    <style>
+        body{
+            background-color: burlywood;
+        }
+        .card{
+            width: 1000px;
+            height: 140px;
+            border: 1px double black;
+            background-color: black;
+            border-radius: 5px;
+            margin:250px auto;
+        }
+        .img{
+            width: 195px;
+            height: 120px;
+            border: 1px double white;
+            border-radius: 8px;
+            position: relative;
+            top: 9px;
+            left: 10px;
+        }
+        .duration{
+            font-size: 11px;
+            color: white;
+            display: inline-block;
+            position: relative;
+            bottom: 4px;
+            right: 30px;
+            background-color: rgba(4, 4, 4,70%);
+            border-radius: 2px;
+            /* border: 1px double black; */
+            padding: 2px;
+        }
+        .title{
+            display: inline-block;
+            color: white;
+            position: relative;
+            bottom: 90px;
+            right: 10px;
+        }
+        .description{
+            position: relative;
+            bottom: 99px;
+            left: 224px;
+        }
+        .dot{
+            display: inline-block;
+            color: grey;
+        }
+        .cName{
+            font-size: 15px;
+            color: grey;
+        }
+        .views{
+            font-size: 15px;
+            color: grey;
+        }
+        .monthsOld{
+            font-size: 15px;
+            color: grey;
+        }
+
+    </style>
+</head>
+<body>
+   <div class="card">
+    <img class="img" src="" alt="video-image">
+    <p class="duration"></p>
+    <h3 class="title"></h3>
+    <div class="description">
+        <small class="cName"></small> &nbsp;<div id="separator" class="dot">•</div>
+        <small class="views"></small> &nbsp;<div id="separator" class="dot">•</div>
+        <small class="monthsOld"></small></div>
+   </div>
+</body>
+<script src="script.js"></script>
+</html>
